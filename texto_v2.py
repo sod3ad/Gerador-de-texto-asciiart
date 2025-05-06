@@ -7,7 +7,7 @@ cy = "\033[36m"
 ve = "\033[31m"
 br = "\033[37m"
 
-# Créditos: DevMiguel
+# Feito por Sod3ad
 
 def opções():
     print(f"{cy}1- VISITAR CRIADOR/REPOSITÓRIO")
@@ -16,7 +16,7 @@ def opções():
     opcao = input("DIGITE UM NUMERO: ")
     if opcao == '1':
         print(f"{br}REDIRECIONANDO...")
-        webbrowser.open("https://github.com/DevMiiguel")
+        webbrowser.open("https://github.com/sod3ad")
     elif opcao == '2':
         print(f"{br}VOCÊ ESCOLHEU CONTINUAR")
         
